@@ -1,0 +1,4 @@
+displayName = MooMoo's Custom Strings Pack
+author = MooMoo
+version = 0.1
+modReferences = MooMooLib

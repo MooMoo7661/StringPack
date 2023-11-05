@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>StringPack</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Strings\CalamityStrings_AirSpinner.png" />
+    <None Remove="Strings\CalamityStrings_Aorta.png" />
+    <None Remove="Strings\CalamityStrings_Azathoth.png" />
+    <None Remove="Strings\CalamityStrings_FaultLine.png" />
+    <None Remove="Strings\CalamityStrings_GodsGambit.png" />
+    <None Remove="Strings\CalamityStrings_Lacerator.png" />
+    <None Remove="Strings\CalamityStrings_Microwave.png" />
+    <None Remove="Strings\CalamityStrings_Oblivion.png" />
+    <None Remove="Strings\CalamityStrings_Pandemic.png" />
+    <None Remove="Strings\CalamityStrings_Quagmire.png" />
+    <None Remove="Strings\CalamityStrings_Riptide.png" />
+    <None Remove="Strings\CalamityStrings_ShimmerSpark.png" />
+    <None Remove="Strings\CalamityStrings_SolarFlare.png" />
+    <None Remove="Strings\CalamityStrings_SulphurousGrabber.png" />
+    <None Remove="Strings\CalamityStrings_TheObliterator.png" />
+    <None Remove="Strings\CalamityStrings_TheOracle.png" />
+    <None Remove="Strings\CalamityStrings_YinYo.png" />
+    <None Remove="Strings\FargowiltasSoulsStrings_Blender.png" />
+    <None Remove="Strings\FargowiltasSoulsStrings_Dicer.png" />
+    <None Remove="Strings\TerrariaStrings_BasicString.png" />
+    <None Remove="Strings\ThoriumStrings_Aerial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MooMooLib">
+      <HintPath>..\..\ModReader\MooMooLib\MooMooLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
